@@ -15,72 +15,72 @@ sqa_criteria:
     repos:
       github.com/ARGOeu/argo-messaging git:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-cinnamon-gharial.sh
-        container: qc.acc_paltry-vermilion-gecko
+        - /usr/bin/env sh .sqa/script.foggy-black-olm.sh
+        container: qc.acc_ugly-purple-fish
   QC.Doc:
     repos:
       github.com/ARGOeu/argo-messaging find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-amber-sponge.sh
-        container: qc.doc_queasy-chartreuse-gorilla
+        - /usr/bin/env sh .sqa/script.seedy-lilac-axolotl.sh
+        container: qc.doc_skanky-sangria-armadillo
       github.com/ARGOeu/argo-messaging git:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-auburn-molly.sh
-        container: qc.doc_squirrely-carmine-rabbit
+        - /usr/bin/env sh .sqa/script.sunny-sepia-fly.sh
+        container: qc.doc_skinny-auburn-retriever
       github.com/ARGOeu/argo-messaging markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-tomato-sheepdog.sh
-        container: qc.doc_sunny-firebrick-beagle
+        - /usr/bin/env sh .sqa/script.sickly-linen-kudu.sh
+        container: qc.doc_tacky-cobalt-giraffe
   QC.Lic:
     repos:
       github.com/ARGOeu/argo-messaging licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-burgundy-stingray.sh
-        container: qc.lic_jumpy-tangerine-buzzard
+        - /usr/bin/env sh .sqa/script.crabby-gamboge-fish.sh
+        container: qc.lic_clammy-beige-terrier
   QC.Met:
     repos:
       github.com/ARGOeu/argo-messaging cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-thistle-echidna.sh
-        container: qc.met_tacky-azure-liger
+        - /usr/bin/env sh .sqa/script.foggy-gamboge-lemming.sh
+        container: qc.met_chewy-cyan-oyster
       github.com/ARGOeu/argo-messaging validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-cream-crab.sh
-        container: qc.met_beady-ecru-spitz
+        - /usr/bin/env sh .sqa/script.gloppy-sepia-cheetah.sh
+        container: qc.met_baggy-azure-barracuda
   QC.Sec:
     repos:
       github.com/ARGOeu/argo-messaging bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-ochre-kingfisher.sh
-        container: qc.sec_chewy-amethyst-newfoundland
+        - /usr/bin/env sh .sqa/script.whiny-cyan-hyrax.sh
+        container: qc.sec_sickly-dandelion-chin
       github.com/ARGOeu/argo-messaging gosec:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-orchid-crab.sh
-        container: qc.sec_scummy-brass-scorpion
+        - /usr/bin/env sh .sqa/script.skinny-cinnabar-neanderthal.sh
+        container: qc.sec_trippy-cerulean-alligator
   QC.Sty:
     repos:
       github.com/ARGOeu/argo-messaging flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-orange-eel.sh
-        container: qc.sty_geeky-lilac-cuttlefish
+        - /usr/bin/env sh .sqa/script.leaky-cyan-eel.sh
+        container: qc.sty_scummy-ultramarine-iguana
       github.com/ARGOeu/argo-messaging jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-violet-kakapo.sh
-        container: qc.sty_chummy-beige-warthog
+        - /usr/bin/env sh .sqa/script.baggy-ultramarine-rattlesnake.sh
+        container: qc.sty_tasty-russet-gibbon
       github.com/ARGOeu/argo-messaging staticcheck:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-sepia-lynx.sh
-        container: qc.sty_leaky-silver-goose
+        - /usr/bin/env sh .sqa/script.flimsy-dandelion-molly.sh
+        container: qc.sty_baggy-coral-akita
   QC.Uni:
     repos:
       github.com/ARGOeu/argo-messaging pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-magnolia-zebra.sh
-        container: qc.uni_homey-brass-millipede
+        - /usr/bin/env sh .sqa/script.freaky-bronze-squirrel.sh
+        container: qc.uni_slimy-denim-gorilla
   QC.Ver:
     repos:
       github.com/ARGOeu/argo-messaging get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-zucchini-insect.sh
-        container: qc.ver_homely-brown-monkey
+        - /usr/bin/env sh .sqa/script.randy-tan-newt.sh
+        container: qc.ver_frumpy-dandelion-squirt
 timeout: 5400
